@@ -1,0 +1,15 @@
+from lista_duplamente_encadeada import Lista_duplamente_encadeada
+
+lista = Lista_duplamente_encadeada()
+lista.inserir_inicio(10)
+lista.inserir_inicio(15)
+lista.mostrar()
+print("-----------")
+lista.inserir_final(20)
+lista.mostrar()
+print("-----------")
+lista.excluir_inicio()
+lista.mostrar()
+print("-----------")
+lista.excluir_final()
+lista.mostrar()
